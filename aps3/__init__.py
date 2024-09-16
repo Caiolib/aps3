@@ -1,2 +1,2 @@
 from .my_lib import *
-from .enigma import *
+from .main import *
