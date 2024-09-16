@@ -36,7 +36,7 @@ setup(
     python_requires='>=3.9.6',
     entry_points={
         'console_scripts': [
-            'enigma=enigma.main:main',
+            'aps3=aps3.main:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
