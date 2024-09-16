@@ -12,14 +12,14 @@ def find_subdir(start_dir):
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-MODULE_STUB = "{{cookiecutter.aps3caio}}"
+MODULE_STUB = 'aps3'
 
 setup(
-    name=MODULE_STUB,  # Substitua pelo nome do seu pacote
+    name="aps3",  # Substitua pelo nome do seu pacote
     version="0.1.0",
-    author="{{cookiecutter.author_name}}",
-    author_email="{{cookiecutter.author_email}}",
-    description="{{cookiecutter.module_description}}",
+    author="Caio Liberal",
+    author_email="caioliberal@gmail.com",
+    description="Camera",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Caiolib/aps3",  # URL do repositório do seu projeto (se houver)
@@ -30,13 +30,13 @@ setup(
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.9.6',
     entry_points={
         'console_scripts': [
-            f'{{cookiecutter.module_name}}-cli={MODULE_STUB}.main:app',
+            'enigma=enigma.main:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt

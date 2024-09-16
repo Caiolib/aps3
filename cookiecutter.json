@@ -1,9 +1,0 @@
-{
-    "author_name": "John Doe",
-    "author_email": "john@doe",
-    "module_name": "helloworld",
-    "version": "0.1.0",
-    "module_description": "A simple hello world module",
-    "github_username": "johndoe",
-    "github_repository": "helloworld"
-}
