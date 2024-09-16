@@ -2,7 +2,7 @@
 
 # Integrantes
 
-- Luis Felipe(SocratesMorreu) e Caio Frigerio Liberal (Caiolib)
+- Caio Frigerio Liberal (Caiolib)
 
 # Projeto de Efeitos de Vídeo em Tempo Real
 
@@ -12,11 +12,9 @@ Este projeto é um processador de efeito de vídeo em tempo real que realiza a r
 
 - Para rodar o programa demo.py, siga os seguintes passos:
 
-- Para rodar o demo é necessário ter o python instalado na maquina, caso não tenha, baixe o python em https://www.python.org/downloads/
-- Installe o arquivo zip no GitHub
-- Acesse a pasta do demo com o comando "cd" no terminal
-- Instale as dependências necessárias usando o comando: "pip install -r requirements.txt"
-- Use o comando "python demo.py" ou "python3 demo.py" para executar o programa
+- pip install git+https://github.com/Caiolib/aps3
+
+- digite aps3 no terminal
 
 # Funcionalidades do programa 
 
